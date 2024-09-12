@@ -9,9 +9,9 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="about"  >
       <h1 className="heading">
-      <span className="text-white">Recent  </span>
-     
-      <span className="text-purple"> Projects </span>
+        <span className="text-white">Recent  </span>
+
+        <span className="text-purple"> Projects </span>
         <span className="text-white">I worked on</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">

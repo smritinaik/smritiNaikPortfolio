@@ -39,7 +39,7 @@ const Clients = () => {
                   src={company.nameImg}
                   alt={company.name}
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
+                  className="md:w-24 w-10"
                 />
               </div>
             </React.Fragment>
