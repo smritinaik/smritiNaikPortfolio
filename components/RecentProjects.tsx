@@ -12,7 +12,7 @@ const RecentProjects = () => {
         
         <span className="text-white">Check </span>
         <span className="text-white">Out  </span>
-        <span className="text-purple">.........</span>
+        <span className="text-purple">.........  </span>
         <span className="text-purple">  My Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
