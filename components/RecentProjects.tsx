@@ -14,11 +14,11 @@ const RecentProjects = () => {
         <span className="text-purple">  </span>
         <span className="text-white"></span>
       </h1> */}
-     {/* <h1 className="heading mb-8">
+     <h1 className="heading mb-8">
         <span className="text-white">Recent</span>
         <span className="text-purple"> Projects </span>
         <span className="text-white">I worked on</span>
-      </h1> */}
+      </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
