@@ -71,7 +71,7 @@ const Hero = () => {
       </div>
 
 
-      <h1 className="heading mb-8">
+      <h1 className="heading">
         <span className="text-white">Recent</span>
         <span className="text-purple"> Projects </span>
         <span className="text-white">I worked on</span>
