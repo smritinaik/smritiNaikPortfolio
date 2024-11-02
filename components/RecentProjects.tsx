@@ -10,8 +10,8 @@ const RecentProjects = () => {
     <div className="py-20" id="about"  >
       <h1 className="heading">
         
-        <span className="text-purple">.....  </span>
-        <span className="text-purple">...  </span>
+        <span className="text-white">Check </span>
+        <span className="text-white">Out  </span>
         <span className="text-purple">..........</span>
         <span className="text-purple">  My Projects</span>
       </h1>
