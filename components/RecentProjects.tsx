@@ -8,18 +8,12 @@ import { PinContainer } from "./ui/Pin";
 const RecentProjects = () => {
   return (
     <div className="py-20" id="about"  >
-       {/* <h1 className="heading mb-8">
-        <span className="text-white"> </span>
+      <h1 className="heading">
+        <span className="text-white">Recent  </span>
 
-        <span className="text-purple">  </span>
-        <span className="text-white"></span>
-      </h1> */}
-     <h1 className="heading mb-8">
-        <span className="text-white">Recent</span>
         <span className="text-purple"> Projects </span>
         <span className="text-white">I worked on</span>
       </h1>
-
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
@@ -28,7 +22,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="Explore"
-              
+              href="https://twitter.com/mannupaaji"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
