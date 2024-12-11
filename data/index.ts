@@ -105,6 +105,24 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
   },
+  {
+    id: 5,
+    title: "Balu Developers Goa",
+    des: "Designed Balu Developers Business website",
+    img: "/balu.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://github.com/adrianhajdin/iphone",
+  },
+  {
+    id: 6,
+    title: "Animated Gaming Website",
+    des: "Animated Gaming Website a self developed project",
+    img: "/animated.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://github.com/adrianhajdin/iphone",
+  },
+
+
 ];
 
 export const testimonials = [
@@ -188,20 +206,20 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+  {
+    id: 3,
+    title: "Freelancer at UPWORKS and FIVER platforms",
+    desc: "I also offer web development services at freelancing platforms.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Web Developer at Codsoft Company",
+    desc: "Currently doing work from home internship at codsoft!",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
 ];
 
 const icons = [
