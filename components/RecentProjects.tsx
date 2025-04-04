@@ -7,12 +7,12 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="about"  >
+    <div className="py-20 justify-center pt-20" id="about"  >
       <h1 className="heading">
         
         <span className="text-white">Check  </span>
         <span className="text-white">Out  </span>
-        <span className="text-purple">............</span>
+        {/* <span className="text-purple">............</span> */}
         <span className="text-purple">  My Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">

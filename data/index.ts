@@ -78,7 +78,7 @@ export const projects = [
     des: "Designed Sai Santosh Coldrink website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/saisantosh.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://saisantoshcoldrink.com",
+    link: "https://github.com/smritinaik",
     
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     des: "Designed ExpressRentals website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/expren.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "",
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const projects = [
     des: "Designed Classic Cafe website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/classicafe.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "",
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const projects = [
     des: "Designed Manoj Taxi Service website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/manoj.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "",
   },
   {
     id: 5,
@@ -111,7 +111,7 @@ export const projects = [
     des: "Designed Balu Developers Business website",
     img: "/balu.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "",
   },
   {
     id: 6,
@@ -119,9 +119,8 @@ export const projects = [
     des: "Animated Gaming Website a self developed project",
     img: "/animated.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "",
   },
-
 
 ];
 
@@ -213,13 +212,13 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Web Developer at Codsoft Company",
-    desc: "Currently doing work from home internship at codsoft!",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Web Developer at Codsoft Company",
+  //   desc: "Currently doing work from home internship at codsoft!",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 const icons = [
