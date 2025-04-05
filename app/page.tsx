@@ -21,7 +21,6 @@ const Home = () => {
         <div className="p-9"></div>
         <Blog/>
         <Experience/>
-        {/* <Youtube/> */}
         <Approach/>
         <Footer/>
       </div>
