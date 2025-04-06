@@ -12,29 +12,30 @@ function Blog() {
                     <span className="text-white">My Tech   </span>
                     {/* <span className="text-white">Out  </span> */}
                     <span className="text-purple">Highlights</span>
-                </h1>            </div>
+                </h1>
+            </div>
             <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-3 gap-3">
                 {/* Card 1 */}
                 <div className="p-2">
                     <CardBody
-                        className="bg-gray-50 relative group/card 
-                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[1.9] 
-                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
-                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
-                        sm:hover:translateZ-[15px]">
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
                         <CardItem
                             translateZ="10"
                             className="text-lg font-bold text-neutral-600 dark:text-white"
                         >
-                            Techlipse 
+                            Techlipse
                         </CardItem>
                         <CardItem
                             as="p"
                             translateZ="5"
                             className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                         >
-                            Hosting Techlipse at St. Xavier’s College was an unforgettable experience. I had the opportunity to lead the event, engage with the audience, and keep the energy alive throughout the sessions. 
+                            Hosting Techlipse at St. Xavier’s College was an unforgettable experience. I had the opportunity to lead the event, engage with the audience, and keep the energy alive throughout the sessions.
                         </CardItem>
                         <CardItem
                             translateZ="20"
@@ -51,21 +52,21 @@ function Blog() {
                             />
                         </CardItem>
                         <div className="flex justify-between items-center mt-10">
-                            <CardItem
+                            {/* <CardItem
                             translateZ={10}
                             translateX={-10}
                             as="button"
                             className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
                             learn more →
-                        </CardItem>
+                        </CardItem> */}
                             <CardItem
                                 translateZ={10}
                                 translateX={10}
                                 as="button"
                                 className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                             >
-                                Get Started
+                                Snapshots
                             </CardItem>
                         </div>
                     </CardBody>
@@ -74,17 +75,17 @@ function Blog() {
                 {/* Card 2 */}
                 <div className="p-2">
                     <CardBody
-                        className="bg-gray-50 relative group/card 
-                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[1.9] 
-                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
-                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
-                        sm:hover:translateZ-[15px]">
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
                         <CardItem
                             translateZ="10"
                             className="text-lg font-bold text-neutral-600 dark:text-white"
                         >
-                            Technotronics 
+                            Technotronics
                         </CardItem>
                         <CardItem
                             as="p"
@@ -108,21 +109,21 @@ function Blog() {
                             />
                         </CardItem>
                         <div className="flex justify-between items-center mt-10">
-                            <CardItem
+                            {/* <CardItem
                                 translateZ={10}
                                 translateX={-10}
                                 as="button"
                                 className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                             >
                                 learn more →
-                            </CardItem>
+                            </CardItem> */}
                             <CardItem
                                 translateZ={10}
                                 translateX={10}
                                 as="button"
                                 className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                             >
-                                Get Started
+                                Snapshots
                             </CardItem>
                         </div>
                     </CardBody>
@@ -132,17 +133,17 @@ function Blog() {
                 {/* Card 3 */}
                 <div className="p-2">
                     <CardBody
-                        className="bg-gray-50 relative group/card 
-                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[1.9] 
-                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
-                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
-                        sm:hover:translateZ-[15px]">
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
                         <CardItem
                             translateZ="10"
                             className="text-lg font-bold text-neutral-600 dark:text-white"
                         >
-                             Colossus
+                            Colossus
                         </CardItem>
                         <CardItem
                             as="p"
@@ -168,21 +169,21 @@ function Blog() {
                             />
                         </CardItem>
                         <div className="flex justify-between items-center mt-10">
-                            <CardItem
+                            {/* <CardItem
                                 translateZ={10}
                                 translateX={-10}
                                 as="button"
                                 className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                             >
                                 learn more →
-                            </CardItem>
+                            </CardItem> */}
                             <CardItem
                                 translateZ={10}
                                 translateX={10}
                                 as="button"
                                 className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                             >
-                                Get Started
+                                Snapshots
                             </CardItem>
                         </div>
                     </CardBody>
