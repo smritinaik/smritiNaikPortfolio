@@ -32,20 +32,26 @@ const Footer = () => {
                 </a>
             </div>
 
-            {/* Copyright and Social Icons */}
-            <div className="flex mt-16 md:flex-row flex-col justify-between items-center w-full z-20"> {/* Added z-20 here */}
-                <p className="md:text-base text-sm md:font-normal font-light text-white">
-                    Copyright © 2024 Smriti Naik
+            <div className="relative z-10 mt-16 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between">
+                <p className="text-sm md:text-base text-gray-400 text-center md:text-left">
+                    © 2024 Smriti Naik. All rights reserved.
                 </p>
-                
-                {/* Move Icons to the Right */}
-                <div className="flex space-x-4 ml-auto"> {/* ml-auto shifts it to the right */}
-                    {/* GitHub and LinkedIn Icons */}
-                    <a href="https://github.com/smritinaik" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="text-white cursor-pointer" size={24} />
+                <div className="mt-4 md:mt-0 flex space-x-4">
+                    <a
+                        href="https://github.com/smritinaik"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-gray-300"
+                    >
+                        <FaGithub size={20} />
                     </a>
-                    <a href="https://www.linkedin.com/in/smritinaik15/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="text-white cursor-pointer" size={24} />
+                    <a
+                        href="https://www.linkedin.com/in/smritinaik15/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-gray-300"
+                    >
+                        <FaLinkedin size={20} />
                     </a>
                 </div>
             </div>
