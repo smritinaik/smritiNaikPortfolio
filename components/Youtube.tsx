@@ -85,7 +85,7 @@ const items = [
   {
     title: "Innovative Stack - Youtube Channel",
     description:" Whether you're just starting out or building full stack apps, there’s something here for every dev.",
-    header: <ItemImage src="/yt.png" href="https://youtube.com/@innovativestack-r9r?feature=shared" />,
+    header: <ItemImage src="/yt.png" href="https://www.youtube.com/@InnovativeStack-r9r" />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
