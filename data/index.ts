@@ -78,7 +78,7 @@ export const projects = [
     des: "Designed Sai Santosh Coldrink website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/ProSaiSantosh.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/smritinaik",
+    link: "https://sai-santosh-cold-drinks.vercel.app/",
     
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     des: "Designed Goxcar Rentals website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/ProGoxCar.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
+    link: "https://www.goxcarrentals.com/index.html",
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const projects = [
     des: "Sleek Animations with Framer Motion",
     img: "/ProSunSet.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "",
+    link: "https://nature-web-nine.vercel.app/",
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const projects = [
     des: "Designed this website with Aceternity UI library",
     img: "/ProModernUi.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "",
+    link: "https://modernui-ncdb.vercel.app/",
   },
   {
     id: 5,
@@ -111,7 +111,7 @@ export const projects = [
     des: "Designed Balu Developers Business website",
     img: "/balu.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "",
+    link: "https://baludevelopers.com/",
   },
   {
     id: 6,
@@ -119,7 +119,7 @@ export const projects = [
     des: "Animated Gaming Website a self developed project",
     img: "/ProTxtPralx (1).png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "",
+    link: "https://parallax-scroll-eta.vercel.app/",
   },
 
 ];
