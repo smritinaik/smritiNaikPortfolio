@@ -1,8 +1,8 @@
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
-];
+// export const navItems = [
+//   { name: "About", link: "#about" },
+//   { name: "Projects", link: "#projects" },
+//   { name: "Contact", link: "#contact" },
+// ];
 
 
 interface GridItem {
@@ -119,13 +119,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  // {
-  //   id: 4,
-  //   title: "Web Developer at Codsoft Company",
-  //   desc: "Currently doing work from home internship at codsoft!",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+
 ];
 
 const icons = [
