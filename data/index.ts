@@ -16,8 +16,6 @@ interface GridItem {
   spareImg?: string;
 }
 
-
-
 export const projects = [
   {
     id: 1,
