@@ -9,6 +9,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import Blog from "@/components/Blog";
 import Youtube from "@/components/Youtube";
 
+
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
