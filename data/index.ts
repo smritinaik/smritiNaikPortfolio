@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -17,59 +16,29 @@ interface GridItem {
   spareImg?: string;
 }
 
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication",
-    description: "",
-    className: "lg:col-span-2 md:col-span-2 lg:row-span-2 lg:min-h-[30vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "sm:col-span-1 md:col-span-1 md:row-span-1",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "sm:col-span-1 md:col-span-1 md:row-span-1",
-  },
-  // {
-  //   id: 4,
-  //   title: "Tech enthusiast with a passion for development.",
-  //   description: "",
-  //   className: "lg:col-span-1 md:col-span-1 md:row-span-1",
-  //   imgClassName: "",
-  //   // titleClassName: "justify-start",
-  //   img: "/grid.svg",
-  //   spareImg: "/b4.svg",
-  // },
+// export const gridItems = [
+//   {
+//     id: 1,
+//     title: "I prioritize client collaboration, fostering open communication",
+//     description: "",
+//     className: "lg:col-span-2 md:col-span-2 lg:row-span-2 lg:min-h-[30vh]",
+//     imgClassName: "w-full h-full",
+//     titleClassName: "justify-end",
+//   },
+//   {
+//     id: 2,
+//     title: "I'm very flexible with time zone communications",
+//     description: "",
+//     className: "sm:col-span-1 md:col-span-1 md:row-span-1",
+//   },
+//   {
+//     id: 3,
+//     title: "My tech stack",
+//     description: "I constantly try to improve",
+//     className: "sm:col-span-1 md:col-span-1 md:row-span-1",
+//   },
 
-  // {
-  //   id: 5,
-  //   title: "Currently building a JS Animation library",
-  //   description: "The Inside Scoop",
-  //   className: "lg:col-span-2 md:col-span-1 md:row-span-2 lg:min-h-[90vh]",
-  //   imgClassName: "w-full h-full",
-  //   titleClassName: "justify-end",
-  //   img: "/b5.svg",
-  //   spareImg: "/grid.svg",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Do you want to start a project together?",
-  //   description: "",
-  //   // className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-  //   imgClassName: "",
-  //   // titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-  //   img: "",
-  //   spareImg: "",
-  // },
-];
+// ];
 
 export const projects = [
   {
@@ -87,74 +56,41 @@ export const projects = [
     des: "Designed Goxcar Rentals website at Avanteia Pvt Ltd, improving functionality, design, and user experience.",
     img: "/ProGoxCar.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://www.goxcarrentals.com/index.html",
+    link: "https://gox-car-rentals.vercel.app/",
   },
   {
     id: 3,
-    title: "Sunset Effect in Framer-motion",
-    des: "Sleek Animations with Framer Motion",
-    img: "/ProSunSet.png",
+    title: "Balu Developers Goa",
+    des: "Designed Balu Developers Business website",
+    img: "/balu.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://nature-web-nine.vercel.app/",
+    link: "https://baludevelopers.com/",
   },
   {
     id: 4,
-    title: "A Modern UI Website",
+    title: "Simran Pinchendar",
+    des: "Designed portfolio website for Simran Pinchendar",
+    img: "/simran.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://simranpinchendar.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "3D Car Website",
+    des: "Designed a 3D website as personal project. ",
+    img: "/3d.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://3dwebsite01.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "A Modern UI Websie",
     des: "Designed this website with Aceternity UI library",
     img: "/ProModernUi.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://modernui-ncdb.vercel.app/",
   },
-  {
-    id: 5,
-    title: "Balu Developers Goa",
-    des: "Designed Balu Developers Business website",
-    img: "/balu.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://baludevelopers.com/",
-  },
-  {
-    id: 6,
-    title: "Parallax Effect in Framer-motion",
-    des: "Animated Gaming Website a self developed project",
-    img: "/ProTxtPralx (1).png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://parallax-scroll-eta.vercel.app/",
-  },
 
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
 ];
 
 export const companies = [
