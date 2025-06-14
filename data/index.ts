@@ -84,12 +84,7 @@ export const companies = [
     img: "",
     nameImg: "/re.svg",
   },
-  // {
-  //   id: 3,
-  //   name: "",
-  //   img: "/host.svg",
-  //   nameImg: "/hostName.svg",
-  // },
+
   {
     id: 4,
     name: "",
