@@ -36,11 +36,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Balu Developers Goa",
-    des: "Designed Balu Developers Business website",
-    img: "/balu.png",
+    title: "3D Pizza website",
+    des: "Designed pizza site",
+    img: "/pizza.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://baludevelopers.com/",
+    link: "https://pizzzzzza.netlify.app/",
   },
   {
     id: 4,
