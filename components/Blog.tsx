@@ -15,6 +15,202 @@ function Blog() {
                 </h1>
             </div>
             <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-3 gap-3">
+
+
+
+
+
+
+
+                                {/* Card 4 */}
+                <div className="p-2">
+                    <CardBody
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
+                        <CardItem
+                            translateZ="10"
+                            className="text-lg font-bold text-neutral-600 dark:text-white"
+                        >
+                            IT Mestro
+                        </CardItem>
+                        <CardItem
+                            as="p"
+                            translateZ="5"
+                            className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
+                        >
+                           Participating in IT Maestro at Saraswat College was a truly enriching experience. I competed in the Business Pitch competition, where I had the chance to present ideas . Overall, it was a rewarding experience that helped broaden my perspective and learning.  </CardItem>
+                        <CardItem
+                            translateZ="20"
+                            rotateX={10}
+                            rotateZ={-5}
+                            className="w-full mt-4"
+                        >
+                            <Image
+                                src="/itmestro.png"
+                                height="600"
+                                width="600"
+                                className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                                alt="Project 1"
+                            />
+                        </CardItem>
+                        <div className="flex justify-between items-center mt-10">
+                            {/* <CardItem
+                            translateZ={10}
+                            translateX={-10}
+                            as="button"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
+                        >
+                            learn more →
+                        </CardItem> */}
+                            <CardItem
+                                translateZ={10}
+                                translateX={10}
+                                as="button"
+                                className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            >
+                                Snapshots
+                            </CardItem>
+                        </div>
+                    </CardBody>
+                </div>
+
+
+
+
+
+                                {/* Card 5 */}
+                <div className="p-2">
+                    <CardBody
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
+                        <CardItem
+                            translateZ="10"
+                            className="text-lg font-bold text-neutral-600 dark:text-white"
+                        >
+                            Technotronics
+                        </CardItem>
+                        <CardItem
+                            as="p"
+                            translateZ="5"
+                            className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
+                        >
+Technotronics at DMC College, Mapusa - Goa was an unforgettable experience. I had  won 1st place in the designing competition and take part in the hackathon with my team, keeping the energy alive throughout the event.                        </CardItem>
+                        <CardItem
+                            translateZ="20"
+                            rotateX={10}
+                            rotateZ={-5}
+                            className="w-full mt-4"
+                        >
+                            <Image
+                                src="/techno.png"
+                                height="600"
+                                width="600"
+                                className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                                alt="Project 1"
+                            />
+                        </CardItem>
+                        <div className="flex justify-between items-center mt-10">
+                            {/* <CardItem
+                            translateZ={10}
+                            translateX={-10}
+                            as="button"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
+                        >
+                            learn more →
+                        </CardItem> */}
+                            <CardItem
+                                translateZ={10}
+                                translateX={10}
+                                as="button"
+                                className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            >
+                                Snapshots
+                            </CardItem>
+                        </div>
+                    </CardBody>
+                </div>
+
+
+
+
+
+
+                                {/* Card 6 */}
+                <div className="p-2">
+                    <CardBody
+                        className="bg-[#000319] relative group/card 
+           dark:hover:shadow-lg dark:hover:shadow-blue-900/[9.9] 
+           dark:bg-[#000319] dark:border-white/[0.2] border-black/[0.1] 
+           w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+           sm:transform-gpu sm:perspective-1000 hover:scale-102 
+           sm:hover:translateZ-[15px]">
+                        <CardItem
+                            translateZ="10"
+                            className="text-lg font-bold text-neutral-600 dark:text-white"
+                        >
+                            Techlipse26
+                        </CardItem>
+                        <CardItem
+                            as="p"
+                            translateZ="5"
+                            className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
+                        >
+                            Hosting Techlipse26 at St. Xavier’s College was an unforgettable experience. I had the opportunity to lead the event, engage with the audience, and keep the energy alive throughout the sessions.
+                        </CardItem>
+                        <CardItem
+                            translateZ="20"
+                            rotateX={10}
+                            rotateZ={-5}
+                            className="w-full mt-4"
+                        >
+                            <Image
+                                src="/techlipse26.png"
+                                height="600"
+                                width="600"
+                                className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                                alt="Project 1"
+                            />
+                        </CardItem>
+                        <div className="flex justify-between items-center mt-10">
+                            {/* <CardItem
+                            translateZ={10}
+                            translateX={-10}
+                            as="button"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
+                        >
+                            learn more →
+                        </CardItem> */}
+                            <CardItem
+                                translateZ={10}
+                                translateX={10}
+                                as="button"
+                                className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            >
+                                Snapshots
+                            </CardItem>
+                        </div>
+                    </CardBody>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
                 {/* Card 1 */}
                 <div className="p-2">
                     <CardBody
