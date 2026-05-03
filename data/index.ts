@@ -121,7 +121,7 @@ export const workExperience = [
   },
     {
     id: 4,
-    title: "Robotics Instrustor Intern",
+    title: "Robotics Instructor Intern",
     desc: "teach basic level construction robotics at Qurious Mind Infotainment Pvt Ltd",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
