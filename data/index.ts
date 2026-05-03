@@ -117,6 +117,13 @@ export const workExperience = [
     title: "Freelancer at UPWORKS and FIVER platforms",
     desc: "I also offer web development services at freelancing platforms.",
     className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp4.svg",
+  },
+    {
+    id: 4,
+    title: "Robotics Instrustor Intern",
+    desc: "teach basic level construction robotics at Qurious Mind Infotainment Pvt Ltd",
+    className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
 
